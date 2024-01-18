@@ -14,7 +14,7 @@
       </a>
       <ul class="navigation-list float-right">
         <li class="navigation-item computer">
-          <a class="navigation-link" href="#abordagem">Abordagem</a>
+          <a class="navigation-link" href="#abordagem">Objetivo</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#contato">
