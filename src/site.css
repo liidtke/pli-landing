@@ -67,8 +67,8 @@
 }
 .header .container {
  border-top:0;
- padding-bottom:7.5rem;
- padding-top:7.5rem;
+ padding-bottom:6.5rem;
+ padding-top:6.5rem;
  position:relative;
  text-align:center
 }
@@ -322,6 +322,11 @@
  .only-mobile {
   display:none
  }
+
+.only-pc {
+  display:block !important;
+ }
+
 }
 .prettyprint.code {
  border:0;
@@ -672,3 +677,8 @@ li.L7,
 li.L9 {
  background:#eee
 }
+
+.only-pc {
+  display:none
+ }
+
