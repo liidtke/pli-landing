@@ -297,6 +297,7 @@
 
   .content.pink {
     background-color: var(--pink);
+    color: white;
   }
 
   .content.alternate {
