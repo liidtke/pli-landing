@@ -28,6 +28,10 @@
     color:var(--primary)
   }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
  font-family:Gotham Rounded A;
  font-style:normal;
@@ -59,7 +63,7 @@
 }
 @media(min-width:40rem) {
  .header {
-  padding-top:5rem
+  padding-top:0rem
  }
 }
 .header+section {
@@ -115,7 +119,7 @@
  padding:8rem 0 2rem
 }
 .footer .copyright {
- padding-right:6rem
+ padding-right:0rem
 }
 .footer .nav {
  position:absolute;
@@ -142,7 +146,6 @@
  height:5.2rem;
  left:0;
  max-width:100%;
- position:fixed;
  right:0;
  top:0;
  width:100%;
@@ -320,7 +323,7 @@
 }
 @media(min-width:40rem) {
  .only-mobile {
-  display:none
+  display:none !important;
  }
 
 .only-pc {
@@ -679,6 +682,8 @@ li.L9 {
 }
 
 .only-pc {
-  display:none
+  display:none;
  }
-
+ .only-mobile {
+  display:block;
+ }

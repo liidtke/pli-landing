@@ -16,6 +16,13 @@
         <li class="navigation-item computer">
           <a class="navigation-link" href="#abordagem">Objetivo</a>
         </li>
+        <li class="navigation-item computer">
+          <a class="navigation-link" href="#ajudar">Terapia</a>
+        </li>
+        <li class="navigation-item computer">
+          <a class="navigation-link" href="#atendo">Atendimento</a>
+        </li>
+
         <li class="navigation-item">
           <a class="navigation-link" href="#contato">
             <button class="button button-outline">Contato</button>
@@ -35,15 +42,17 @@
         Comportamental.
       </p>
 
-      <button class="button clear" on:click={open}>Entrar em Contato</button>
+      <button class="button clear grow" on:click={open}>Entrar em Contato</button>
       <!-- <div class="spacer" /> -->
     </section>
   </header>
   <div class="content pink">
-    <section class="container">
+    <section class="container fade-in">
       <div class="row">
         <div class="column">
           <h3 class="sm">Sobre Mim</h3>
+
+          <img id="me1" class="img-myself only-mobile" src="/me.jpg" alt="me" />
           <p>
             Sou formada desde 2019. Essa foto foi tirada dentro do
             meu consultório, pois é um dos lugares que mais eu gosto de estar, é
@@ -59,8 +68,8 @@
           </p>
           <button class="button clear only-pc" on:click={open}>Entrar em Contato</button>
         </div>
-        <div class="column">
-          <img class="img-myself" src="/me.jpg" alt="me" />
+        <div class="column only-pc">
+          <img id="me2"  class="img-myself only-pc" src="/me.jpg" alt="me" />
         </div>
       </div>
       <div class="row only-mobile">
@@ -99,7 +108,7 @@
     </section>
   </div>
 
-  <div class="content green">
+  <div class="content green" id="ajudar">
     <section class="container">
       <div class="row">
         <div class="column">
@@ -129,10 +138,11 @@
           >Vem, pois estou pronta para fazer essa caminhada junto com você.</strong
         >
       </p>
+          <button class="button clear" on:click={open}>Entrar em Contato</button>
     </section>
   </div>
 
-  <div class="content">
+  <div class="content" id="atendo">
     <section class="container">
       <div class="row">
         <div class="column">
@@ -226,7 +236,6 @@
     .img-myself {
       object-fit: fill;
       width: 80%;
-      display: block;
       margin-left: auto;
       margin-right: auto;
       align-self: center;
@@ -240,7 +249,7 @@
     }
     .header .container {
       padding-bottom: 1rem;
-      padding-top: 6rem;
+      padding-top: 1rem;
     }
   }
 
@@ -334,4 +343,38 @@
   li {
     margin-bottom: 0px;
   }
+
+  .grow{
+    animation: leaves 1s ease-in-out infinite alternate;
+    -webkit-animation: leaves 1s ease-in-out infinite alternate;
+  }
+
+  .fade-in{
+    animation: fin 1s ease-in-out;
+    -webkit-animation: fin 1s ease-in-out;
+  }
+
+  .fade-in-2{
+    animation: fin 2s ease-in-out;
+    -webkit-animation: fin 2s ease-in-out;
+  }
+
+@keyframes leaves {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes fin {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity:  1;
+    }
+}
+
 </style>
