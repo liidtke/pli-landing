@@ -27,7 +27,7 @@
 
   <header class="header">
     <section class="container">
-      <h4>Especialista em Psicologia Clínica</h4>
+      <h4>Psicóloga Clínica - Terapia Online e Presencial</h4>
       <h1>Psicóloga Patrícia Lisboa</h1>
       <p class="small">
         Psicóloga Clínica CRP 10/08202 formada pela Universidade UNASP-SP, Pós
@@ -45,11 +45,10 @@
         <div class="column">
           <h3 class="sm">Sobre Mim</h3>
           <p>
-            Sou formada desde 2019, tenho 29 anos, nessa foto é tirada dentro do
+            Sou formada desde 2019. Essa foto foi tirada dentro do
             meu consultório, pois é um dos lugares que mais eu gosto de estar, é
             nesse ambiente onde atendo os meus pacientes online e presencial,
-            aqui é um lugar de acolhimento, trocas e muita escuta com qualidade,
-            é nesse espaço também que atendo os meus pacientes online é aqui que
+            aqui é um lugar de acolhimento, trocas e muita escuta com qualidade. É aqui que
             criamos uma conexão, é aqui que fazemos uma caminhada para o
             encontro do sentido de vida.
           </p>
@@ -58,7 +57,7 @@
             Comportamental, essa abordagem é comprovada cientificamente e os
             pacientes tem um maior resultado.
           </p>
-          <button class="button only-pc" on:click={open}>Entrar em Contato</button>
+          <button class="button clear only-pc" on:click={open}>Entrar em Contato</button>
         </div>
         <div class="column">
           <img class="img-myself" src="/me.jpg" alt="me" />
@@ -75,7 +74,7 @@
           <!--   Forneço recibo para convênios que trabalham com a modalidade de -->
           <!--   reembolso. -->
           <!-- </p> -->
-          <button class="button" on:click={open}>Entrar em Contato</button>
+          <button class="button clear" on:click={open}>Entrar em Contato</button>
         </div>
       </div>
     </section>
@@ -298,7 +297,6 @@
 
   .content.pink {
     background-color: var(--pink);
-    color: white;
   }
 
   .content.alternate {
