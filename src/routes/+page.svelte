@@ -13,24 +13,27 @@
         <h1 class="title">Patrícia Lisboa</h1>
       </a>
       <ul class="navigation-list float-right">
-        <li class="navigation-item computer">
+        <li class="navigation-item ">
           <a class="navigation-link" href="#abordagem">Objetivo</a>
         </li>
-        <li class="navigation-item computer">
+        <li class="navigation-item ">
           <a class="navigation-link" href="#ajudar">Terapia</a>
         </li>
-        <li class="navigation-item computer">
+        <li class="navigation-item ">
           <a class="navigation-link" href="#atendo">Atendimento</a>
         </li>
 
         <li class="navigation-item">
           <a class="navigation-link" href="#contato">
-            <button class="button button-outline">Contato</button>
+            <a class="navigation-link">Contato</a>
           </a>
         </li>
       </ul>
     </section>
   </nav>
+
+
+
 
   <header class="header">
     <section class="container">

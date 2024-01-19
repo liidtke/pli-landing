@@ -59,7 +59,7 @@ html {
 }
 .header {
  background-color:var(--header-bg);
- padding-top:1rem
+ padding-top:6rem
 }
 @media(min-width:40rem) {
  .header {
@@ -164,6 +164,8 @@ html {
  .navigation .navigation-list {
   margin-right:0
  }
+
+
 }
 .navigation .navigation-item {
  float:left;
@@ -192,6 +194,7 @@ html {
  padding:0;
  text-decoration:none
 }
+
 .navigation .navigation-link.active {
  color:var(--color1)
 }
@@ -329,6 +332,10 @@ html {
 .only-pc {
   display:block !important;
  }
+
+.navigation-link{
+ color:var(--primary) !important;
+}
 
 }
 .prettyprint.code {
@@ -687,3 +694,7 @@ li.L9 {
  .only-mobile {
   display:block;
  }
+
+.navigation-link{
+ color:var(--color4);
+}
